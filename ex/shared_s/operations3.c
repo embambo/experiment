@@ -6,11 +6,11 @@
 /*   By: embambo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/18 14:20:28 by embambo           #+#    #+#             */
-/*   Updated: 2020/06/10 08:40:45 by embambo          ###   ########.fr       */
+/*   Updated: 2020/06/13 14:00:47 by embambo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../shared_s/push_swap.h"
 
 /*
 ** reverse rotate a - shift down all elements of stack a by 1.

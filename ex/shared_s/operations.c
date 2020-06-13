@@ -6,11 +6,11 @@
 /*   By: embambo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/22 09:38:11 by embambo           #+#    #+#             */
-/*   Updated: 2020/06/12 10:52:08 by embambo          ###   ########.fr       */
+/*   Updated: 2020/06/13 14:01:16 by embambo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../shared_s/push_swap.h"
 
 /*
 ** swap a - swap the first 2 elements at the top of stack a.

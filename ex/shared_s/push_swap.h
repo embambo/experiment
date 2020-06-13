@@ -6,7 +6,7 @@
 /*   By: embambo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/22 13:25:57 by embambo           #+#    #+#             */
-/*   Updated: 2020/06/12 14:52:03 by embambo          ###   ########.fr       */
+/*   Updated: 2020/06/13 15:35:13 by embambo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -123,19 +123,18 @@ void			ft_print_commands(t_oper *commands);
 void			ft_game_mode(t_stack *stks);
 void			ft_print_history(t_history *history, int flag);
 void 			ft_clean_the_game_history(t_history **history);
-void			*ft_new_history(char *argument);
-void			ft_print_list_of_command(char *str);
+//void			*ft_new_history(char *argument);
+void			ft_print_list_of_commands(void);
 
-char			*ft_return_oper_name(*str);
+char			*ft_return_oper_name(char *str);
 
 t_oper			*ft_new_oper(char *str);
-t_history		*ft_add_history(t_history **history, char *argument);
-void 
+t_history		*ft_add_history(t_history **history, char *argument); 
 
-int				max_elem(int *array, int len);
-int				is_sorted(int *array, int len);
-int				get_next_line(const int fd, char **line);
-int				ft_check_game_command(char *str);
+int					max_elem(int *array, int len);
+int					is_sorted(int *array, int len);
+//int				get_next_line(const int fd, char **line);
+int					ft_check_game_command(char *str);
 
 void			ft_sa(t_stack *stks);
 void			ft_sb(t_stack *stks);
@@ -169,12 +168,11 @@ void			ft_free_commands(t_oper **commands);
 int				ft_count_words(const char *str, char c);
 int				ft_free_2d_array(char **array, int size);
 
-static char		*ft_game_read(void);
-static void		ft_play_again(t_stack *stks, t_stack **stks_copy, 
-										int **a_copy, int code);
-static void		ft_first_launch(t_stack *stks, t_history **history);
-static void		ft_use_commands(t_oper *commands, t_stack *stks);
-static int		ft_game_act_2(t_history *history, int oper, t_stack *stks);
+//static char		*ft_game_read(void);
+//static void		ft_play_again(t_stack *stks, t_stack **stks_copy, 
+//										int **a_copy, int code);
+//static void		ft_first_launch(t_stack *stks, t_history **history);
+//static int		ft_game_act_2(t_history *history, int oper, t_stack *stks);
 
 
 
