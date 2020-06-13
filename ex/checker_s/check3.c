@@ -6,7 +6,7 @@
 /*   By: embambo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/15 13:06:58 by embambo           #+#    #+#             */
-/*   Updated: 2020/06/12 14:37:13 by embambo          ###   ########.fr       */
+/*   Updated: 2020/06/13 14:31:29 by embambo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void				ft_clean_the_game_history(t_history **history)
 	return ;
 }
 
-static t_history	*ft_new_history(char *argument)
+t_history			*ft_new_history(char *argument)
 {
 	t_history		*new;
 	static int		index;
